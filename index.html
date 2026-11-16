@@ -363,6 +363,8 @@
   #security-kit .kit-buy[aria-disabled="true"]{opacity:.6;cursor:not-allowed}
   #security-kit .kit-more{max-width:760px;margin-top:2rem;color:var(--text);line-height:1.7}
   #security-kit .kit-terms{font-size:.82rem;color:var(--muted);line-height:1.6;margin-top:1.5rem;max-width:760px}
+  .teaser-video{padding-top:0}
+  .teaser-player{display:block;width:100%;max-width:960px;height:auto;aspect-ratio:16/9;margin:0 auto;background:var(--navy2);border:1px solid var(--border);border-radius:4px;object-fit:contain}
   .landing-video{max-width:760px;margin:2rem 0 0}
   .landing-video video{display:block;width:100%;max-width:100%;height:auto;border:1px solid var(--border);border-radius:4px;background:var(--navy2)}
   #security-kit .kit-video{max-width:760px;margin:2rem 0 0}
@@ -500,6 +502,17 @@
                     <a href="#security-kit" class="btn-secondary">DIY Kit</a>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- TEASER VIDEO -->
+    <section id="teaser-video" class="teaser-video" aria-labelledby="teaser-video-title">
+        <div class="container">
+            <h2 id="teaser-video-title">Watch the teaser</h2>
+<video class="teaser-player" aria-label="Lone Star Computer Security teaser video" controls playsinline webkit-playsinline preload="metadata" poster="assets/video/lcs-teaser-poster.jpg?v=3" width="1280" height="720">
+<source src="assets/video/lcs-teaser.mp4?v=3" type="video/mp4">
+Your browser cannot play this video. Call Lone Star Computer Security at (817) 774-9421.
+</video>
         </div>
     </section>
 
